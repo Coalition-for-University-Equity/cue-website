@@ -23,39 +23,87 @@ html, body {
   text-decoration: none;
 }
 
-.logo-vertical-img {
-    float: right;
-    margin: 0 0 0 3vmin;
-    top: 10vh;
-    right: 0;
-    max-height: 90vh;
-    max-width: 30vw;
-    width: auto;
-    aspect-ratio: auto;
+.navbar-logo {
+    padding: 0px 0px;
+    height: 5vh;
 }
 
-.logo-small {
+@media (min-aspect-ratio: 1/1)
+{
+    .logo-vertical-img {
+        float: right;
+        margin: 0 0 0 3vmin;
+        top: 10vh;
+        right: 0;
+        max-height: 90vh;
+        max-width: 30vw;
+        width: auto;
+        aspect-ratio: auto;
+    }
+
+    .main {
+        padding: 0 0;
+        text-align: left;
+    }
+
+    .main h1{
+        font-size: 56px;
+        margin: 3vmin 3vmin 3vmin 3vmin;
+    }
+
+    .main h2{
+        font-size: 32px;
+        margin: 0 4vmin 0 4vmin;
+    }
+
+    .main p{
+        font-size: 22px;
+        margin: 0 4vmin 1vmin 4vmin;
+    }
+
+    .logo-small {
+        float: left;
+        width: 56px;
+        margin: 3vmin 3vmin 3vmin 3vmin;
+    }
+}
+
+@media (max-aspect-ratio: 1/1)
+{
+    .logo-vertical-img {
+        height: 0px;
+    }
+
+    .main {
+        padding: 0 0;
+        text-align: center;
+    }
+
+    .main h1{
+        font-size: 40px;
+        margin: 3vmin 3vmin 3vmin 3vmin;
+    }
+
+    .main h2{
+        font-size: 30px;
+        margin: 0 4vmin 0 4vmin;
+    }
+
+    .main p{
+        font-size: 18px;
+        margin: 0 4vmin 0 4vmin;
+    }
+
+    .logo-small {
+        float: top;
+        width: 40px;
+        margin: 0vmin 3vmin 0vmin 3vmin;
+    }
+}
+
+.logo-large {
     float: left;
     width: 72px;
-    margin: 3vmin 3vmin 3vmin 3vmin;
-}
-
-.main {
-    padding: 0 0;
-}
-
-.main h1{
-    font-size: 64px;
-    margin: 3vmin 3vmin 3vmin 3vmin;
-}
-
-.main h2{
-    font-size: 48px;
-    margin: 3vmin 3vmin 3vmin 3vmin;
-}
-
-.main p{
-    font-size: 28px;
     margin: 3vmin 3vmin 3vmin 3vmin;
 }
 
