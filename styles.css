@@ -72,6 +72,12 @@ html, body {
     width: 72px;
     margin: 3vmin 3vmin 3vmin 3vmin;
     }
+
+    .logo-mobile {
+        float: top;
+        width: 0px;
+        margin: 0vmin 0vmin 0vmin 0vmin;
+    }
 }
 
 @media (max-aspect-ratio: 1/1)
@@ -110,6 +116,12 @@ html, body {
     float: top;
     width: 64px;
     margin: 0vmin 3vmin 0vmin 3vmin;
+    }
+
+    .logo-mobile {
+        float: top;
+        width: 64px;
+        margin: 3vmin 3vmin 3vmin 3vmin;
     }
 }
 
