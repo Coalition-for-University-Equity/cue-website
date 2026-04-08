@@ -66,6 +66,12 @@ html, body {
         width: 56px;
         margin: 3vmin 3vmin 3vmin 3vmin;
     }
+
+    .logo-large {
+    float: left;
+    width: 72px;
+    margin: 3vmin 3vmin 3vmin 3vmin;
+    }
 }
 
 @media (max-aspect-ratio: 1/1)
@@ -99,12 +105,12 @@ html, body {
         width: 40px;
         margin: 0vmin 3vmin 0vmin 3vmin;
     }
-}
 
-.logo-large {
-    float: left;
-    width: 72px;
-    margin: 3vmin 3vmin 3vmin 3vmin;
+    .logo-large {
+    float: top;
+    width: 64px;
+    margin: 0vmin 3vmin 0vmin 3vmin;
+    }
 }
 
 .donations{
