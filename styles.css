@@ -41,6 +41,17 @@ html, body {
         aspect-ratio: auto;
     }
 
+    .zines-video {
+        float: right;
+        margin: 0 0 0 3vmin;
+        top: 10vh;
+        right: 0;
+        max-height: 90vh;
+        max-width: 30vw;
+        width: auto;
+        aspect-ratio: auto;
+    }
+
     .main {
         padding: 0 0;
         text-align: left;
@@ -84,6 +95,17 @@ html, body {
 {
     .logo-vertical-img {
         height: 0px;
+    }
+
+    .zines-video {
+        display: block;
+        margin: 0 0 0 0;
+        top: 10vh;
+        right: 0;
+        max-width: 50vw;
+        max-height: 50vh;
+        width: auto;
+        aspect-ratio: auto;
     }
 
     .main {
