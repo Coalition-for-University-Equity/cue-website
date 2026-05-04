@@ -165,3 +165,10 @@ html, body {
     font-size: 28px;
     margin: 0 3vmin 0 3vmin;
 }
+
+.calendar {
+    border: 0;
+    width: 100vh;
+    max-width: 100vw;
+    height: 85vh;
+}
