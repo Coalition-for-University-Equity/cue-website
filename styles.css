@@ -18,7 +18,7 @@ html, body {
 
 .navbar a {
     float: left;
-    display: block;
+    display: flex;
     text-align: center;
     padding: 2.5vh 1vw;
     text-decoration: none;
