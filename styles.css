@@ -76,13 +76,13 @@ html, body {
     .logo-small {
         float: left;
         width: 56px;
-        margin: 3vmin 3vmin 3vmin 3vmin;
+        margin: 0 0 0 3vmin;
     }
 
     .logo-large {
         float: left;
         width: 72px;
-        margin: 3vmin 3vmin 3vmin 3vmin;
+        margin: 0 0 3vmin 3vmin;
     }
 
     .logo-mobile {
